@@ -1,4 +1,4 @@
-# seekfind (sf)
+# seekfind (sf) 
 
 **seekfind** is a command-line OSINT (Open Source Intelligence) tool written in Python. It’s designed to help investigators, hackers, and researchers gather intelligence on targets using publicly available information.
 
@@ -68,5 +68,5 @@ seekfind is for ethical and educational use only. any misuse of this software is
 ## possible contributions
 pull requests and feature suggestions are welcome. if you want to fork the repo and help expand sf into a full-spectrum OSINT platform, you are welcome to do so. basically any solid architectural advice for the software is welcome as long as it is presented first through email, you can check it on my profile and i'll be open for messages of the kind.
 
-## built by yours truly — for the anonymous, by the anonymous.
+
 
