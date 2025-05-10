@@ -1,10 +1,10 @@
 import requests
 
-API_KEY = "XBoF7BC3fViPYooNTEwm1w==xkhKI2AHvt6pQZkm"
+APl_k = "XBoF7BC3fViPYooNTEwm1w==xkhKI2AHvt6pQZkm"
 
 def run_whois(domain):
     url = f"https://api.api-ninjas.com/v1/whois?domain={domain}"
-    headers = {"X-Api-Key": API_KEY}
+    headers = {"X-Api-Key": APl_k}
 
     response = requests.get(url, headers=headers)
     
