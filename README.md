@@ -37,13 +37,10 @@ cd seekfind
 
 ## how to use
 
-domain lookup: 
 ````
-seekfind lookup -d [website.com]
-````
-social media username checker: 
-````
-seekfind check -u [username]
+seekfind lookup -d [website.com]                    # looks up the information of domain, registrar, etc. of a website
+
+seekfind check -u [username]                        # checks availability of usernames in specific social media platforms
 ````
 
 ---
