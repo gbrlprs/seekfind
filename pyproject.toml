@@ -1,0 +1,12 @@
+[project]
+name = "seekfind"
+version = "0.1.0"
+description = "a complete cli-based osint toolkit"
+authors = [{ name="x", email="your@email.com" }]
+dependencies = ["requests"]
+
+[project.scripts]
+seekfind = "seekfind.cli:main"
+
+[tool.setuptools]
+packages = ["seekfind"]
