@@ -11,11 +11,11 @@ def run(email):
         if data.get("breached"):
             print(f"Email {email} has been found in the following breaches:")
             
-            # Assuming the 'breaches' key holds a list of breaches
+            # assuming the 'breaches' key holds a list of breaches
             for breach in data.get("breaches", []):
-                # Make sure to handle each breach element properly
+                # make sure to handle each breach element properly
                 if isinstance(breach, dict):
-                    # Printing breach name and date if present in the response
+                    # printing breach name and date if present in the response
                     print(f"- {breach.get('name', 'Unknown breach')} ({breach.get('breach_date', 'Unknown date')})")
                 else:
                     print("Error: Unexpected data format in breach list.")
