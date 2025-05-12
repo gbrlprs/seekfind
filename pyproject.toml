@@ -2,8 +2,8 @@
 name = "seekfind"
 version = "0.1.0"
 description = "a complete cli-based osint toolkit"
-authors = [{ name="x", email="your@email.com" }]
-dependencies = ["requests"]
+authors = [{ name="untitled group", email="function_anonymous@proton.me" }]
+dependencies = ["requests, python3+"]
 
 [project.scripts]
 seekfind = "seekfind.cli:main"
