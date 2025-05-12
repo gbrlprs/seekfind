@@ -10,7 +10,8 @@
 
 -  **WHOIS Lookup** — fetches domain registration and ownership data.
 -  **social media username check** — self explanatory. it currently works on on platforms like Instagram, X/Twitter and Facebook.
--  **planned features**:
+--
+## upcoming features
   - email breach verification
   - IP geolocation
   - reverse IP lookup
